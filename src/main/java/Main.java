@@ -11,7 +11,7 @@ public class Main {
         MainMenuController.displayMainMenu();
         input = scanner.nextInt();
 
-        while (input != 6) {
+        while (true) {
             switch (input) {
                 case 1:
                     MainMenuController.createNewAccount();
@@ -28,10 +28,15 @@ public class Main {
                 case 5:
                     MainMenuController.removeAccount();
                     break;
+                case 6:
+                    System.out.println("\nThank you for using the basic banking system!");
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Invalid choice, please try again.");
             }
             MainMenuController.displayMainMenu();
             input = scanner.nextInt();
         }
-        System.out.println("\nThank you for using the basic banking system!");
     }
 }
