@@ -1,4 +1,4 @@
-package src.main.banking;
+package src.main.java.banking;
 
 public class Account {
     private final String accountHolderName;

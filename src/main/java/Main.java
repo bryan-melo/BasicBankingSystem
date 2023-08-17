@@ -1,15 +1,16 @@
-package src.main;
+package src.main.java;
 
+import src.database.DatabaseConnection;
+
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         Scanner scanner = new Scanner(System.in);
-        int input;
-
-        System.out.println("\nWelcome to the basic src.main.banking system!");
+        System.out.println("\nWelcome to the basic.java.banking system!");
         MainMenuController.displayMainMenu();
-        input = scanner.nextInt();
+        int input = scanner.nextInt();
 
         while (true) {
             switch (input) {
@@ -29,7 +30,7 @@ public class Main {
                     MainMenuController.removeAccount();
                     break;
                 case 6:
-                    System.out.println("\nThank you for using the basic src.main.banking system!");
+                    System.out.println("\nThank you for using the basic src.main.java.banking system!");
                     System.exit(0);
                     break;
                 default:

@@ -1,0 +1,24 @@
+
+                JDBC API
+-----------------------------------------------------
+Collection of interfaces and classes:
+    • DriverManager: Loads the driver
+    • Driver: Creates a connection
+    • Connection: Represents a connection
+    • DatabaseMetaData: Information about the DB server
+    • Statement:  Executing queries
+    • PreparedStatement: Precompiled and stored query
+    • CallableStatment:  Execute SQL stored procedures
+    • ResultSet: Results of execution of queries
+    • ResultSetMetaData: Meta data for ResultSet
+
+
+Seven Basic Steps in Using JDBC
+    1. Load the driver
+    2. Define the Connection URL
+    3. Establish the Connection
+    4. Create a Statement object
+    5. Execute a query
+    6. Process the results
+    7. Close the Connection
+

@@ -1,4 +1,4 @@
-package src.main.banking;
+package src.main.java.banking;
 
 import java.util.ArrayList;
 
