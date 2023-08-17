@@ -1,7 +1,7 @@
-package src.main;
+package src.main.java;
 
-import src.main.banking.Account;
-import src.main.banking.Bank;
+import src.main.java.banking.Account;
+import src.main.java.banking.Bank;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class MainMenuController {
     // Displays main menu that is displayed after each option has been completed
     public static void displayMainMenu() {
         System.out.println("\n===================");
-        System.out.println("    src.main.Main menu    ||");
+        System.out.println("    src.main.java.Main menu    ||");
         System.out.println("===================\n");
         System.out.println("1. Create Account");
         System.out.println("2. Deposit Money");
@@ -106,7 +106,7 @@ public class MainMenuController {
         }
     }
 
-    // Remove Account from src.main.banking system using account number
+    // Remove Account from src.main.java.banking system using account number
     public static void removeAccount() {
         System.out.println("\n======================");
         System.out.println("   Remove Account   ||");
