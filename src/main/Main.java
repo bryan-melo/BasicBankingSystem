@@ -1,4 +1,4 @@
-package src.main.java;
+package src.main;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int input;
 
-        System.out.println("\nWelcome to the basic banking system!");
+        System.out.println("\nWelcome to the basic src.main.banking system!");
         MainMenuController.displayMainMenu();
         input = scanner.nextInt();
 
@@ -29,7 +29,7 @@ public class Main {
                     MainMenuController.removeAccount();
                     break;
                 case 6:
-                    System.out.println("\nThank you for using the basic banking system!");
+                    System.out.println("\nThank you for using the basic src.main.banking system!");
                     System.exit(0);
                     break;
                 default:
